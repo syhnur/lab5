@@ -6,7 +6,6 @@ workflows:
     environment:
       groups:
         - keystore_credentials
-        - google_play_credentials
         - other 
         - google_credentials
       flutter: stable
